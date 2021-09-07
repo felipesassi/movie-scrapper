@@ -3,5 +3,7 @@ python:
     - "3.8.1"
 install:
     - pip install poetry
+    - poetry install
 script:
-    - poetry shell & poetry install & pytest
+    - poetry shell
+    - pytest
