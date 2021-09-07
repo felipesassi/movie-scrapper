@@ -6,3 +6,5 @@ install:
     - poetry install
 script:
     - poetry run pytest --cov=movie_scrapper tests
+after_success:
+    - codecov
