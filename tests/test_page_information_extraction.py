@@ -34,7 +34,3 @@ class TestPageInformationExtraction:
         assert set(extract_movie_info(soup).keys()) == set(
             ["title", "date", "synopsis"]
         )
-
-    def test_get_all_movies_sites(self):
-        i = 0
-        assert len(get_all_movies_sites(i)) == 15
