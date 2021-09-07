@@ -5,4 +5,4 @@ install:
     - pip install poetry
     - poetry install
 script:
-    - poetry shell & pytest
+    - poetry run pytest
