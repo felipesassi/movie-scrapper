@@ -38,6 +38,3 @@ def get_movie_sites(soup):
         return []
 
 
-def get_all_movies_sites(i):
-    url = f"https://www.adorocinema.com/filmes-todos/?page={i}"
-    return get_movie_sites(get_beautiful_soup_data(get_url_data(url)))
