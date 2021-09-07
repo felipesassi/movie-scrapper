@@ -5,4 +5,4 @@ install:
     - pip install poetry
     - poetry install
 script:
-    - poetry run pytest
+    - poetry run pytest --cov=movie_scrapper tests
